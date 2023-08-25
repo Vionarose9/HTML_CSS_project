@@ -1,67 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipies</title>
+    <title>Document</title>
 </head>
 <style>
- body{
-    background-image: url("https://media.istockphoto.com/id/1254201148/photo/homemade-blueberries-popsicles-on-gray-background.jpg?s=612x612&w=0&k=20&c=er71n80aPx2uKKT21iBxQkN4AVZBEtkE0pFR_R5ttX0=");
-     background-size:cover;
-    background-repeat: no-repeat;  
-
-} 
-.container{
-    background-color: whitesmoke;
-    padding:30px;
-    text-align:center;
-    margin: 40px 10px 15px 55px;
-    max-width: 300px;
-    opacity: 0.9;
-    justify-content:left;
-    float: left;
+.colour{
+    background-color:grey;
 }
-
-
-
+.selector{
+     background-image: url("https://w0.peakpx.com/wallpaper/459/890/HD-wallpaper-squares-white-geometric-shapes-white-aesthetic.jpg"); 
+    /* background-color: black; */
+    color:black;
+    background-repeat:repeat;
+}
+.button-link {
+  position: relative;
+  top: 80%;
+  left: 43%;
+   padding: 10px 50px; 
+  color: #fff; 
+  font-style:normal;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border: none;
+   background:linear-gradient(#cfa3a3,#23257e);  
+   
+}
+.button-link:hover {
+  background-color: linear-gradient(#295688,#8c8c9b);
+}
+.box1 {
+  background-image: url('img_home/img_test.png');
+  background-repeat:no-repeat;
+  background-size:fit;
+   background-position: center; 
+  width: 1160px;
+  height: 363px;
+  margin: auto; 
+  background-blend-mode:color-dodge;
+}
+.box2{
+  background-image: url('img_home/img1.png');
+  width: 1160px;
+  height: 363px;
+  background-repeat:no-repeat;
+  /* background-size:fit; */
+   background-position: center; 
+  margin: auto;
+}
+.box3{
+  background-image: url('img_craft.png');
+  background-size: 900px;
+   width: 1160px;
+  height: 363px;
+  background-repeat:no-repeat;
+  background-position: center; 
+  margin:auto;
+}
+nav{
+    background-color:#8c8c9b;
+    padding:20px;
+    margin-top:-10px;
+    width:100%;
+    margin-left: -20px;
+    position:sticky;
+    /* top:0.5px; Keeps the nav tab in view */
+    z-index:3;
+}
+nav ul{
+    white-space:nowrap;/*dont go to the next line*/
+    max-width:1200px;
+    margin: 0 auto;
+    /* float: left; */
+}
+nav li{
+    width:25%;
+    display:inline-block;
+    font-size:24px;
+    
+}
+nav li a{
+    text-decoration: #4B4B;
+}
 </style>
-<body>
-    
-    <section>
-    <div class="container">
-        <h1>Chocolate Cake</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.youtube.com/watch?v=xwKGZS3EE7Q"><button>Click here</button></a></p>
-        </div>
-    <div class="container">
-        <h1>Ice-cream</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.youtube.com/watch?v=7gJIyHnD710"><button>Click here</button></a></p>
+<body class="selector">
+     <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Suggestions</a></li>
+      </ul>
+     </nav>
+    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><center>Are You Bored?</center></h1>
+    <div class="box1">
+      <!-- <center>
+        <img src="https://bizonaire.com/images/2020/03/27/103cb17d-757c-45a1-ae63-c408fbeadc69.jpeg" alt="indoor games" >
+      </center> -->
+      <a href="games.html" class="button-link">Learn-></a>
     </div>
-    <div class="container">
-        <h1>Oreo milkshake</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.youtube.com/watch?v=0pyMDMAjVc0"><button>Click here</button></a></p>
+    <br/>
+    <br/>
+    <div class="box2">
+        <!-- <center>
+          <img src="https://i.pinimg.com/736x/0f/34/ac/0f34ac1b3158eca7b95298dc320fe369--dragon.jpg" alt="indoor games" height=300px width=1200px>
+        </center> -->
+        <a href="recipies.html" class="button-link">Learn-></a> 
     </div>
-    </section>
-    <section>
-    <div class="container">
-        <h1>Chocolate-Chip Cookies</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.youtube.com/watch?v=PFJAuAWxuvI"><button>Click here</button></a></p>
-    </div>
-    <div class="container">
-        <h1>Macarons</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.youtube.com/watch?v=5zgfdImm_VA"><button>Click here</button></a></p>
-    </div>
-    <div class="container">
-        <h1>Brownie</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum reprehenderit sequi quia distinctio aliquid, cupiditate labore! Qui quidem quae voluptas, blanditiis pariatur accusamus repudiandae consequuntur iusto iure nobis molestias?</p>
-        <p><a href="https://www.allrecipes.com/recipe/10549/best-brownies/"><button>Click here</button></p>
-    </div>
-    </section>
-    
 </body>
 </html>
